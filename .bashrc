@@ -11,3 +11,7 @@ fi
 
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
+
+# Tmux 
+MY_SESSION_NAME="MySession"
+alias my-tmux="tmux attach-session -t $MY_SESSION_NAME || tmux new-session -s $MY_SESSION_NAME"
