@@ -1,3 +1,6 @@
+BIN_DIR="$HOME/.local/bin"
+export PATH="$BIN_DIR:$PATH"
+
 # Dotfiles management
 alias my-dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
